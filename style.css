@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fullwebsite{
+    width: 900px;
+    height: auto;
+    border: 3px  black;
+    margin: 0 auto;
+}
+.section1{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #7ED957;
+}
+.logo{
+    width: 40%;
+    height: 50px;
+    float: left;
+    
+}
+.logo h1{
+    color: white;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-family:lobster;
+}
+.banner{
+    width: 50%;
+    height: 50px;
+    float: right;
+    background-image: url(banner.jpg);
+    color: blanchedalmond;
+}
+.section2{
+    background-color: rgb(59, 59, 192);
+    width: 100%;
+    height: 50px;
+    display:block;
+    text-align: center;
+    position: sticky;
+    top: 0;
+   
+}
+.section2 ul{
+    padding-top:10px;
+    text-align:left;
+   
+}
+.section2 ul li{
+    display: inline;
+    list-style: none;
+    border-right: solid 2px black ;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    margin-left: -4px;
+  
+    
+}
+.section2 ul li:hover{
+    background-color: #7ED957;
+}
+.section2 ul li:first-child{
+    border-left: solid 2px black ;
+    margin-left: 0.5px;
+}
+
+.section2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-family:oswald;
+    margin-left: 0;
+   
+
+}
+.group{
+    width: 100%;
+    height: 1141px;
+    background-color: aqua;
+}
+/* .sami{ */
+    /* display:fex; */
+/* } */
+.section3{
+    width: 70%;
+    height: 1141px;
+    background-color: red;
+}
+.one .tp1{
+    width: 60%;
+    padding-top: 10px;
+    height: auto;
+    text-align:justify;
+}
+.one .messi1{
+
+    float:right;
+    margin-right: 10px;
+    margin-top: -235px;
+    
+}
+.one .tp2{
+    display: inline;
+}
+
+.group .section4{
+    width: 30%;
+    height:650px;
+    margin-top: -1141px;
+    background-color: azure;
+    float:right;
+}
+.letest h1{
+    background-color: red;
+    margin-top: 20px;
+    border-bottom: solid 2px;
+    margin-right:  70px;
+
+}
+.letest .ltex{
+    padding-top: 12px;
+    padding-left: 5px;
+
+}
+.section3 .two{
+    width: 192px;
+    height: auto;
+    margin-top: 25px;
+    text-align: justify;
+    margin-left: 15px;
+    float: left;
+    margin-bottom: 20px;
+
+
+}
+.san{
+   
+    text-align: center;
+}
+.san .pous{
+    width: 550px;
+    height: 180px;
+    padding-bottom: 1px;
+   
+}
+.san p{
+    
+}
+.section5{
+    width: 30%;
+    height: auto;
+    float:right;
+    padding-left: 30px;
+    box-sizing: border-box;
+    padding-top: 2.5px;
+    margin-top:-510px;
+    background-color:rgb(203, 203, 230);
+}
+
+.group2{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color:#F8FAFB;
+}
+
+.group2 .covver{
+    padding-left: 10px;
+    background-color: cyan;
+   
+}
+ 
+.covver h1{
+    font-size: 26px;
+    
+    border-bottom:  2px solid;
+}
+
+.covver p{
+    padding-top: 7px;
+}
+
+.group2 .covver1{
+    padding-left: 10px;
+    background-color: darkgreen;
+}
+ 
+.covver1 h1{
+    font-size: 26px;
+    border-bottom:  2px solid;
+}
+.covver1 p{
+    padding-top: 7px;
+}
+.group2 .covver2{
+    padding-left: 10px;
+    background-color: darkorange;
+}
+ 
+.covver2 h1{
+    font-size: 26px;
+    border-bottom:  2px solid;
+}
+.covver2 p{
+    padding-top: 7px;
+}
+.group2 .covver3{
+    padding-left: 10px;
+    background-color: darkorchid;
+}
+ 
+.covver3 h1{
+    font-size: 26px;
+    border-bottom:  2px solid;
+}
+.covver3 p{
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color:#262626;
+}
+
+
+
+.footer .sec2{
+    width: 300px;
+    height: auto;
+   
+}
+ .sec2 .tami{
+     padding-left: 35px;
+     padding-top: 20px;
+ }
+
+
+
+.sec3{
+    width: 300px;
+    height: auto;
+    
+}
+
+.tami h1{
+    color: white;
+}
+.tami li{
+    list-style: none;
+    padding-top: 8px;
+}
+
+.tami li a{
+     text-decoration: none;
+    color: white;
+    padding-left: 5px;
+  
+}
+
+.sec3 .add{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.add h1{
+    color: white;
+}
+
+.add li{
+    list-style: none;
+    padding-top: 15px;
+    color: white;
+}
+.add li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.sec4{
+    width: 300px;
+    height: auto;
+}
+.sec4 .lin{
+    padding-top: 19px;
+    padding: 20px;
+}
+ .lin h1{
+      color: white;
+      padding-bottom: 20px;
+ }
+ .lin li{
+     list-style: none;
+     display: inline;
+    
+ }
+
+ .lin li a{
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     padding:12px;
+    
+     border:  2px solid;
+     border-radius: 45%;
+     box-sizing: border-box;
+
+ }
+ .lin li a:hover{
+     background-color: red;
+ }
+ 
+
+.copyright{
+    width: 100%;
+    height: 30px;
+    background-color: cadetblue;
+    padding-top: 5px;
+    text-align: center;
+}
